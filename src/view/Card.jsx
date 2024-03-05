@@ -2,7 +2,9 @@
   1. Function Components - export and export default 
 ----------------------------------------------------- */
 export function Card(props) {
+	console.log(props)
 	return (
+		
 		<div className="card">
 			<h1 className="headline">I am a Card</h1>
 			<h2 className="paragraph">
